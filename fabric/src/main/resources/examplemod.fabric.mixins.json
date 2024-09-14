@@ -7,7 +7,7 @@
     "mixins": [
     ],
     "client": [
-        "MixinTitleScreen"
+      "tfar.friendsandfoestweaker.mixin.MixinTitleScreen"
     ],
     "server": [
     ],

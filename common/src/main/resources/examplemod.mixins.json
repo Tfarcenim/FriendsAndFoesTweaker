@@ -7,7 +7,7 @@
     "mixins": [
     ],
     "client": [
-        "MixinMinecraft"
+      "tfar.friendsandfoestweaker.mixin.MixinMinecraft"
     ],
     "server": [
     ],

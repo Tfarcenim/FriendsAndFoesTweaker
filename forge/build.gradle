@@ -79,6 +79,10 @@ dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     compileOnly project(":common")
     annotationProcessor("org.spongepowered:mixin:0.8.5-SNAPSHOT:processor")
+    implementation fg.deobf("curse.maven:friends-and-foes-forge-602059:4484352")
+
+    implementation fg.deobf("dev.architectury:architectury-forge:${rootProject.architectury_version}")
+
 }
 
 tasks.withType(JavaCompile).configureEach {
